@@ -1,0 +1,70 @@
+.backBtn{
+    border: none;
+    border-radius:50%;
+    color: black;
+    background-color: rgba(93, 214, 198, 0.911);
+    font-weight: 700;
+    cursor: pointer;
+}
+.backBtn:hover {
+box-shadow:  0 0 5px rgb(0, 255, 234), 0 0 15px rgba(0, 247, 255, 0.918),
+0 0 20px rgb(0, 225, 255), 0 0 40px rgb(108, 240, 245);
+}
+.container {
+    display: flex;
+    padding: 20px;
+    border-bottom: 1px solid rgb(7, 6, 7);
+}
+
+.image {
+    width: 200px;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.title {
+    font-size: 30px;
+}
+
+.overviewDisc {
+    max-width: 80%;
+}
+
+.additional {
+    padding: 20px;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.additionalTitle {
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+}
+
+.additionalList {
+    display: flex;
+    column-gap: 15px;
+    justify-content: center;
+}
+
+.link {
+    font-size: 14px;
+    text-decoration: none;
+
+}
+
+.active {
+    
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 800;
+    
+        
+}

@@ -1,0 +1,35 @@
+.form {
+    margin: 15px auto;
+    width: 300px;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.labelInput{
+    width: 300px;
+    display: flex;
+}
+
+.input{
+    width: 100%;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.submit{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: rgb(35, 179, 167);
+    cursor: pointer;
+}
+.submit:hover {
+    box-shadow:  0 0 5px rgb(0, 255, 234), 0 0 15px rgba(0, 247, 255, 0.918),
+0 0 20px rgb(0, 225, 255), 0 0 40px rgb(108, 240, 245);
+}
